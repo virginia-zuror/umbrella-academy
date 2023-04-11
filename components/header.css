@@ -1,22 +1,39 @@
 .navbar{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    padding: 2rem 2rem;
+    width: 30vh;
+    height: 100vw;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    background-color: rgba(14, 83, 83, 0.489);
+    background-image: url("../public/images/cubes.png");
 }
 .navbar > h1{
     font-weight: 400;
     font-size: 30px;
-    margin-left: 5%;
+    
     
 }
 .navbar > ul{
-    display: inline-flex;
-    gap: 1rem;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-evenly;
+    gap: 1rem;
+    padding-top: 5rem;
+    
+}
+.navbar >ul > li> button{
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+}
+.navbar >ul > li> button:hover{
+    scale: 1.05;
+
 }

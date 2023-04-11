@@ -23,6 +23,10 @@
   box-sizing: border-box;
   
 }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
 
 a{
   text-decoration: none;
@@ -44,11 +48,12 @@ body{
   background-color: var(--bg-colour-light);
   color: var(--colour-light);
   width: 100vw;
-  height: 100vh;
+  height: 100vh; 
+  overflow: hidden scroll;
 }
 
 main{
   width: 100%;
-  padding: 1rem 20%;
+  padding: 10% 20%;
 
 }

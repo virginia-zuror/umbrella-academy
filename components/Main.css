@@ -1,0 +1,39 @@
+.about{
+    scroll-snap-align:start;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+    gap: 2rem;
+}
+.studies, .work{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.studies > ul, .work >ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+    
+}
+.myProjects{
+    scroll-snap-align: start;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    gap: 2rem;
+}
+.myProjects > figure > img{
+    width: 200px;
+    object-fit: cover;
+}
